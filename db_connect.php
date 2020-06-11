@@ -1,5 +1,4 @@
 
-
 <?php
 /**
  * A class file to connect to database
@@ -12,10 +11,10 @@ class DB_CONNECT {
      */
     function connectDB() {
     
-    define('DB_USER', "3187555_db"); // db user
-    define('DB_PASSWORD', "Kotz46aa"); // db password (mention your db password here)
-    define('DB_DATABASE', "3187555_db"); // database name
-    define('DB_SERVER', "fdb22.atspace.me"); // db server
+    define('DB_USER', "bc6c9bf48b4bdc"); // db user
+    define('DB_PASSWORD', "ab911a61"); // db password (mention your db password here)
+    define('DB_DATABASE', "heroku_837ba537cdc8b69"); // database name
+    define('DB_SERVER', "us-cdbr-east-05.cleardb.net"); // db server
 
 
 
