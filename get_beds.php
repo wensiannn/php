@@ -34,7 +34,7 @@ table, th, td {
 <html>
 <body>
  <body class="container">
-    <div class = "card-panel teal lighten-2"><h3><p class = "center-align">Bed Calls list</p></h3></div>
+    <div class = "card-panel teal lighten-2"><h3><p class = "center-align">Nurse Call Station Dashboard</p></h3></div>
         <div class = "collection">
  
       <li><a href = "main.html" class = "collection-item"><i class="material-icons">keyboard_backspace</i>Go to main page</a>
@@ -159,7 +159,7 @@ $count=0;
 
    
    <body onload = "JavaScript:AutoRefresh(1000);">
-      <p>This page will refresh every 1 seconds.</p>
+
    </body>
    
 </html>
