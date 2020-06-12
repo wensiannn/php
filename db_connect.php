@@ -14,7 +14,7 @@ class DB_CONNECT {
     
     define('DB_USER', "bc6c9bf48b4bdc"); // db user
     define('DB_PASSWORD', "ab911a61"); // db password (mention your db password here)
-    define('DB_DATABASE', "heroku_837ba537cdc8b69"); // database name
+    define('DB_DATABASE', ""); // database name
     define('DB_SERVER', "us-cdbr-east-05.cleardb.net"); // db server
 
 
