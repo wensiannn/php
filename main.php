@@ -1,4 +1,20 @@
+<?php
+session_start();
 
+
+if($_SESSION["username"]=='admin') {
+?>
+<p>Welcome <?php echo $_SESSION["username"]; ?>. Click  <a href="logout.php" tite="Logout">here</a> to Logout.</p>
+<?php
+$login= 1;
+}
+
+else{
+header("Location:dashboard.php");
+//echo ("Please login first, Click here to <a href='login.php' tite='Login'>Log in.");
+}
+
+?>
       <!DOCTYPE html>
 <html>
    <head>
@@ -17,14 +33,25 @@
    <div class = "card-panel teal lighten-2"><h3><p class = "center-align">Nurse Station</p></h3></div>
    <body class = "container">   
    <div align = "center">
-<img src= "image/bed.png" width = "30%" height ="30%"><br>
+
+     <img src= "image/bed.png" width = "30%" height ="30%"><br>
       <h3>Bed Calls</h3><hr/>
       <div class = "collection">
          <a href = "get_beds.php" class = "collection-item">List of Bed Calls</a>
-    
       </div>
-      
-     
+    
+
+
+ <!--<script type = "text/JavaScript">
+         
+            function AutoRefresh( t ) {
+               setTimeout("location.reload(true);", t);
+            }
+         
+      </script>
+      <body onload = "JavaScript:AutoRefresh(30000);">
+    
+   </body>-->
    </body>   
 </html>
 
